@@ -13,14 +13,7 @@
 
 ###
 
-<div align="right">
-  <a href="https://www.linkedin.com/in/nogom/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/mr_nogom" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=X&logo=twitter&label=&color=black&logoColor=white&labelColor=black&style=for-the-badge" height="35" alt="twitter logo"  />
-  </a>
-</div>
+
 
 
 ###
@@ -51,3 +44,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
 </div>
 
+<div align="right">
+  <a href="https://www.linkedin.com/in/nogom/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+  <a href="https://x.com/mr_nogom" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=X&logo=twitter&label=&color=black&logoColor=white&labelColor=black&style=for-the-badge" height="35" alt="twitter logo"  />
+  </a>
+</div>
