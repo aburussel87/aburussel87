@@ -4,126 +4,307 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Profile</title>
+    <title>Abu Russel | Software Engineer & CSE Student</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="../assets/buet.png" type="image/png" />
+    <link rel="icon" href="../assets/russel.jpeg" type="image/png" />
+    <style>
+        .tech-badge {
+            transition: all 0.2s ease-in-out;
+            cursor: default;
+        }
+
+        .tech-badge:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the modal backdrop */
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+        }
+    </style>
 </head>
 
-<body class="bg-gray-100 text-gray-800">
-
-    <div class="max-w-4xl mx-auto p-6">
-        <!-- Profile Card -->
-        <div class="bg-white shadow-lg rounded-2xl p-6 md:flex items-center space-y-6 md:space-y-0 md:space-x-6">
-            <div class="flex-shrink-0">
-                <img class="w-40 h-40 rounded-full object-cover border-4 border-indigo-500" src="../assets/russel.jpeg"
-                    alt="Profile Picture" />
-            </div>
-            <div>
-                <h2 class="text-2xl font-bold">Abu Russel</h2>
-                <p class="text-gray-600 mt-1">Enthusiast Programmer</p>
-                <p class="text-sm mt-2">Passionate about building performant and scalable applications. Skilled in C,
-                    C++, Java, JavaScript.</p>
-                <div class="flex space-x-4 mt-4">
-                    <a href="https://github.com/aburussel87" target="_blank"
-                        class="text-indigo-600 hover:underline">GitHub</a>
-                    <a href="https://www.facebook.com/abu.russel.7" target="_blank"
-                        class="text-indigo-600 hover:underline">Facebook</a>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+        <header
+            class="bg-white shadow-2xl rounded-3xl p-8 mb-8 border-t-4 border-indigo-600 transform hover:scale-[1.01] transition duration-300 ease-in-out">
+            <div class="md:flex items-center space-y-6 md:space-y-0 md:space-x-8">
+                <div class="flex-shrink-0 flex justify-center">
+                    <img class="w-48 h-48 rounded-full object-cover ring-4 ring-offset-4 ring-indigo-500 shadow-xl"
+                        src="../assets/russel.jpeg" alt="Abu Russel's Profile Picture" loading="lazy" />
                 </div>
-            </div>
-        </div>
-
-        <!-- Educational Background -->
-        <div class="mt-8 bg-white shadow-md rounded-xl p-6">
-            <h3 class="text-xl font-semibold mb-4 border-b pb-2">Educational Background (English Version)</h3>
-
-            <!-- School -->
-            <div class="mb-6">
-                <div class="flex items-center space-x-3 mb-2">
-                    <img src="../assets/rsf.png" alt="School Logo" class="w-6 h-6" />
-                    <h4 class="font-semibold text-lg">
-                        <a href="https://www.facebook.com/rsfmsc/" target="_blank"
-                            class="text-blue-600 hover:underline">
-                            RSF Model School and College
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl font-extrabold text-gray-900 leading-tight">Abu Russel</h1>
+                    <p class="text-xl text-indigo-600 mt-1 font-semibold">B.Sc. in CSE Student at BUET</p>
+                    <p class="text-base mt-3 max-w-lg mx-auto md:mx-0 text-gray-700">
+                        Passionate **Enthusiast Programmer** focused on building performant and scalable applications.
+                        Highly skilled in core computer science concepts and multiple programming paradigms.
+                    </p>
+                    <div class="flex justify-center md:justify-start space-x-6 mt-5">
+                        <a href="https://github.com/aburussel87" target="_blank"
+                            class="text-gray-700 hover:text-indigo-600 transition duration-150 flex items-center group"
+                            aria-label="View Abu Russel's GitHub Profile">
+                            <span class="text-2xl font-bold" aria-hidden="true">G</span>
+                            <span class="ml-2 hidden sm:inline group-hover:underline">GitHub</span>
                         </a>
-                    </h4>
-                </div>
-                <ul class="list-disc list-inside ml-6 space-y-1 text-sm text-gray-700">
-                    <li>PSC – GPA: 5.00 (2014), Scholarship: Talent Pool</li>
-                    <li>JSC – GPA: 5.00 (2018), Scholarship: Talent Pool</li>
-                    <li>SSC – GPA: 5.00 (2020), Scholarship: General</li>
-                </ul>
-            </div>
-
-            <!-- College -->
-            <div class="mb-6">
-                <div class="flex items-center space-x-3 mb-2">
-                    <img src="../assets/ndc.png" alt="College Logo" class="w-6 h-6" />
-                    <h4 class="font-semibold text-lg">
-                        <a href="https://ndc.edu.bd" target="_blank" class="text-blue-600 hover:underline">
-                            Notre Dame College
+                        <a href="https://www.facebook.com/abu.russel.7" target="_blank"
+                            class="text-gray-700 hover:text-indigo-600 transition duration-150 flex items-center group"
+                            aria-label="View Abu Russel's Facebook Profile">
+                            <span class="text-2xl font-bold" aria-hidden="true">F</span>
+                            <span class="ml-2 hidden sm:inline group-hover:underline">Facebook</span>
                         </a>
-                    </h4>
+                    </div>
                 </div>
-                <ul class="list-disc list-inside ml-6 space-y-1 text-sm text-gray-700">
-                    <li>HSC – GPA: 5.00 (2022), Scholarship: Talent Pool</li>
-                </ul>
             </div>
+        </header>
 
-            <!-- University -->
-            <div class="mb-6">
-                <div class="flex items-center space-x-3 mb-2">
-                    <img src="../assets/buet.png" alt="University Logo" class="w-6 h-6" />
-                    <h4 class="font-semibold text-lg">
-                        <a href="https://www.buet.ac.bd/web/#/" target="_blank" class="text-blue-600 hover:underline">
-                            Bangladesh University of Engineering and Technology (BUET)
-                        </a>
-                    </h4>
+        <section class="mt-8 bg-white shadow-xl rounded-xl p-6">
+            <h2 class="text-2xl font-bold mb-4 text-gray-900 border-b-2 border-indigo-100 pb-2">Technical Skills</h2>
+            <div class="flex flex-wrap gap-3 text-sm font-medium">
+                <span class="bg-blue-600 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">C</span>
+                <span class="bg-green-600 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">C++</span>
+                <span class="bg-yellow-500 text-gray-800 px-4 py-1.5 rounded-full tech-badge shadow-md">Java</span>
+                <span class="bg-indigo-500 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">JavaScript</span>
+                <span class="bg-red-500 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">Python</span>
+                <span class="bg-purple-600 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">HTML & CSS</span>
+                <span class="bg-gray-600 text-white px-4 py-1.5 rounded-full tech-badge shadow-md">SQL/Databases</span>
+            </div>
+        </section>
 
+        <section class="mt-8 bg-white shadow-xl rounded-xl p-6">
+            <h2 class="text-2xl font-bold mb-4 text-gray-900 border-b-2 border-indigo-100 pb-2">Educational Background
+            </h2>
+
+            <div class="mb-6 pb-4 border-b border-gray-100 last:border-b-0">
+                <div class="flex items-start space-x-4 mb-2">
+                    <img src="../assets/buet.png" alt="Bangladesh University of Engineering and Technology Logo"
+                        class="w-8 h-8 flex-shrink-0 mt-1" loading="lazy" />
+                    <div>
+                        <h3 class="font-bold text-xl text-blue-800">
+                            <a href="https://www.buet.ac.bd/web/#/" target="_blank"
+                                class="hover:text-blue-600 hover:underline">
+                                Bangladesh University of Engineering and Technology (BUET)
+                            </a>
+                        </h3>
+                        <p class="text-sm text-gray-500">2023 – Present | Expected Graduation: 2028</p>
+                    </div>
                 </div>
-                <ul class="list-disc list-inside ml-6 space-y-1 text-sm text-gray-700">
-                    <li>B.Sc. in Computer Science and Engineering (on going)</li>
-                    <li>CGPA: 3.75 (Expected Graduation: 2028)</li>
+                <ul class="ml-12 space-y-1 text-base text-gray-700">
+                    <li>B.Sc. in Computer Science and Engineering (on-going)</li>
+                    <li><strong class="font-semibold text-indigo-600">Current CGPA: 3.80</strong></li>
                 </ul>
             </div>
-        </div>
 
-        <!-- Programming Languages Section -->
-        <div class="mt-8 bg-white shadow-md rounded-xl p-6">
-            <h3 class="text-xl font-semibold mb-4 border-b pb-2">Programming Languages</h3>
-            <div class="flex flex-wrap gap-4 text-sm text-white">
-                <span class="bg-blue-600 px-3 py-1 rounded-full">C</span>
-                <span class="bg-green-600 px-3 py-1 rounded-full">C++</span>
-                <span class="bg-yellow-500 px-3 py-1 rounded-full">Java</span>
-                <span class="bg-indigo-500 px-3 py-1 rounded-full">JavaScript</span>
-                <span class="bg-red-500 px-3 py-1 rounded-full">Python</span>
-                <span class="bg-purple-600 px-3 py-1 rounded-full">HTML</span>
-                <span class="bg-pink-500 px-3 py-1 rounded-full">CSS</span>
-                <span class="bg-gray-600 px-3 py-1 rounded-full">SQL</span>
+            <div class="mb-6 pb-4 border-b border-gray-100 last:border-b-0">
+                <div class="flex items-start space-x-4 mb-2">
+                    <img src="../assets/ndc.png" alt="Notre Dame College Logo" class="w-8 h-8 flex-shrink-0 mt-1"
+                        loading="lazy" />
+                    <div>
+                        <h3 class="font-bold text-xl text-blue-800">
+                            <a href="https://ndc.edu.bd" target="_blank" class="hover:text-blue-600 hover:underline">
+                                Notre Dame College (NDC)
+                            </a>
+                        </h3>
+                        <p class="text-sm text-gray-500">2020 – 2022</p>
+                    </div>
+                </div>
+                <ul class="ml-12 space-y-1 text-base text-gray-700">
+                    <li>HSC – <strong class="text-green-600">GPA: 5.00/5.00</strong></li>
+                    <li><span class="font-semibold text-gray-600">Scholarship: Talent Pool</span></li>
+                </ul>
             </div>
-        </div>
 
-        <!-- Learned Algorithms Section -->
-        <div class="mt-8 bg-white shadow-md rounded-xl p-6">
-            <h3 class="text-xl font-semibold mb-4 border-b pb-2">Co-curricular Activities</h3>
-            <ul class="list-disc list-inside space-y-2 text-sm text-gray-700">
-                <li> Teacher at Udvash (Materials Department)</li>
-                <h4 style="font-weight: bolder;">Hackathon - Bangladesh AI Summit (BRAC UNIVERISTY) - 2025</h4>
-                <ul>
-                    <li> Project : FINTECH AI</li>
-                    <li> Team : JAGROTO BIDDA DOL</li>
+            <div class="mb-0">
+                <div class="flex items-start space-x-4 mb-2">
+                    <img src="../assets/rsf.png" alt="RSF Model School and College Logo"
+                        class="w-8 h-8 flex-shrink-0 mt-1" loading="lazy" />
+                    <div>
+                        <h3 class="font-bold text-xl text-blue-800">
+                            <a href="https://www.facebook.com/rsfmsc/" target="_blank"
+                                class="hover:text-blue-600 hover:underline">
+                                RSF Model School and College
+                            </a>
+                        </h3>
+                        <p class="text-sm text-gray-500">2014 – 2020</p>
+                    </div>
+                </div>
+                <div class="ml-12 text-base text-gray-700">
+                    <p><strong class="font-semibold">SSC:</strong> GPA 5.00 (General Scholarship)</p>
+                    <p><strong class="font-semibold">JSC & PSC:</strong> GPA 5.00 (Talent Pool Scholarship)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-8 bg-white shadow-xl rounded-xl p-6">
+            <h2 class="text-2xl font-bold mb-4 text-gray-900 border-b-2 border-indigo-100 pb-2">Awards & Co-curricular
+                Activities</h2>
+
+            <div class="mb-6 p-4 bg-indigo-50 border-l-4 border-indigo-600 rounded-lg">
+                <h3 class="text-xl font-extrabold text-indigo-700 mb-2">
+                    <span class="text-2xl mr-2">🏆</span>Blockchain Olympiad Bangladesh (BCOLBD) - 2025
+                </h3>
+                <p class="text-lg font-semibold text-gray-800">Professor Jamilur Reza Chowdhury Award Winner</p>
+                <ul class="list-disc list-inside ml-4 mt-2 text-sm text-gray-700">
+                    <li><b>Project:</b> Solchain</li>
+                    <li><b>Team:</b> GREYDEVS</li>
                 </ul>
-                <h4 style="font-weight: bolder;">BCOLBD - BlockChain Olympiad Bangladesh- 2025</h4>
-                <ul>
-                    <li> Project : Solchain</li>
-                    <li> Team : GREYDEVS</li>
-                    <li> Position : Professor Jamilur Reza Chowdhury Award Winner (Champion- Blockchain category)</li>
+
+                <div class="flex gap-3 mt-3">
+                    <button onclick="showPDF('../assets/IBCOL_2025.pdf')"
+                        class="px-3 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition duration-150">
+                        Certificate
+                    </button>
+                    <button onclick="showPDF('../assets/NOMINATION_SOLCHAIN.pdf')"
+                        class="px-3 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition duration-150">
+                        Nomination
+                    </button>
+                </div>
+            </div>
+
+            <div class="mb-6 p-4 bg-indigo-50 border-l-4 border-indigo-600 rounded-lg">
+                <h3 class="text-xl font-extrabold text-indigo-700 mb-2">
+                    <span class="text-2xl mr-2">💻</span>Hackathon - Bangladesh AI Summit - 2025
+                </h3>
+                <ul class="list-disc list-inside ml-4 text-sm text-gray-700">
+                    <li><b>Project:</b> FINTECH AI</li>
+                    <li><b>Team:</b> JAGROTO BIDDA DOL</li>
                 </ul>
 
-            </ul>
-        </div>
+                <div class="flex gap-3 mt-3">
+                    <button onclick="showImage('../assets/AI_HACKATHON.jpg')"
+                        class="px-3 py-1 bg-gray-700 hover:bg-gray-800 text-white rounded-lg transition duration-150">
+                        View Image
+                    </button>
+                </div>
+            </div>
+            <div class="mb-6 p-4 bg-indigo-50 border-l-4 border-indigo-600 rounded-lg">
+                <h3 class="text-xl font-extrabold text-indigo-700 mb-2">
+                    <span class="text-2xl mr-2">💡</span>Hackathon - SOLVIO AI_HACKATHON - 2025
+                </h3>
+                <ul class="list-disc list-inside ml-4 text-sm text-gray-700">
+                    <li><b>Project:</b> UDDOKTA AI</li>
+                    <li><b>Team:</b> GREYDEVS</li>
+                </ul>
 
+                <div class="flex gap-3 mt-3">
+                    <button onclick="showPDF('../assets/SOLVIO.pdf')"
+                        class="px-3 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition duration-150">
+                        VIEW PDF
+                    </button>
+                </div>
+            </div>
 
+            <div class="mb-0 p-4 bg-indigo-50 border-l-4 border-indigo-600 rounded-lg">
+                <h3 class="text-xl font-bold text-gray-800 mb-1">Teaching & Mentoring</h3>
+                <ul class="list-disc list-inside ml-4 text-sm text-gray-700">
+                    <li>Teacher at <b>Udvash (Materials Department)</b></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <footer class="mt-10 text-center text-gray-500 text-sm">
+            &copy; 2025 Abu Russel — an Enthusiast Programmer
+        </footer>
     </div>
+
+    <div id="modal-viewer"
+        class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4 transition-opacity duration-300 ease-in-out"
+        aria-modal="true" role="dialog" aria-hidden="true">
+        
+        <div class="bg-white rounded-lg shadow-2xl w-full max-w-5xl max-h-full relative overflow-hidden">
+            
+            <button onclick="closeModal()"
+                class="absolute top-3 right-3 text-white bg-red-600 hover:bg-red-700 rounded-full p-2 text-lg font-bold z-10 transition duration-150 focus:outline-none focus:ring-4 focus:ring-red-400"
+                aria-label="Close Viewer">
+                &times;
+            </button>
+            
+            <div class="w-full h-[90vh] p-4 sm:p-6 lg:p-8">
+                <iframe id="pdfViewer"
+                    class="w-full h-full hidden border-none"
+                    title="Document Viewer"></iframe>
+                <img id="imgViewer"
+                    class="w-full h-full object-contain hidden"
+                    alt="Award/Project Image Viewer" />
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("modal-viewer");
+        const pdf = document.getElementById("pdfViewer");
+        const img = document.getElementById("imgViewer");
+
+        async function fileExists(url) {
+            try {
+                // Using a light HEAD request to check file availability
+                const res = await fetch(url, { method: "HEAD" });
+                return res.ok;
+            } catch (error) {
+                console.error("Error checking file existence:", error);
+                return false;
+            }
+        }
+
+        function closeModal() {
+            modal.classList.add("hidden");
+            // Stop any content that might be playing or loading
+            pdf.src = '';
+            img.src = '';
+            // Hide the specific content elements
+            pdf.classList.add("hidden");
+            img.classList.add("hidden");
+        }
+
+        async function showPDF(pdfPath) {
+            const exists = await fileExists(pdfPath);
+            if (!exists) {
+                alert("File not found at path: " + pdfPath);
+                return;
+            }
+            
+            // 1. Hide image, show PDF
+            img.classList.add("hidden");
+            pdf.classList.remove("hidden");
+
+            // 2. Set source and show modal
+            pdf.src = pdfPath;
+            modal.classList.remove("hidden");
+        }
+
+        async function showImage(imgPath) {
+            const exists = await fileExists(imgPath);
+            if (!exists) {
+                alert("File not found at path: " + imgPath);
+                return;
+            }
+
+            // 1. Hide PDF, show image
+            pdf.classList.add("hidden");
+            img.classList.remove("hidden");
+
+            // 2. Set source and show modal
+            img.src = imgPath;
+            modal.classList.remove("hidden");
+        }
+        
+        // Close modal on Escape key press
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+        
+        // Optional: Close modal if user clicks on the backdrop (outside the content)
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
 
 </body>
 
