@@ -1,54 +1,102 @@
-<h2 align="left">Hi This is Abu Russel<br>Undergraduate Student</h2>
+<h1 align="center">Hi 👋, I'm Abu Russel</h1>
+<h3 align="center">B.Sc. in Computer Science &amp; Engineering student at BUET · I code for fun.</h3>
+
+<p align="center">
+  <a href="https://github.com/aburussel87" target="_blank">
+    <img src="https://img.shields.io/github/followers/aburussel87?label=Followers&style=for-the-badge&color=181717&logo=github" alt="GitHub followers" />
+  </a>
+  <a href="https://www.facebook.com/abu.russel.7" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&style=for-the-badge" alt="Facebook" />
+  </a>
+</p>
 
 ###
 
-<p align="left">I code for fun.</p>
+## 🧑‍💻 About Me
+
+- 🎓 Studying **Computer Science and Engineering at BUET** (2023 – 2028), current CGPA **3.80**
+- 🏆 **Professor Jamilur Reza Chowdhury Award** winner — Blockchain Olympiad Bangladesh (BCOLBD) 2025
+- 🔭 Building **Solchain** with team **GREYDEVS**
+- 🧑‍🏫 Teacher at **Udvash** (Materials Department)
+- 🌱 Currently sharpening my skills in data structures, algorithms and full-stack development
+- 📫 Reach me on [Facebook](https://www.facebook.com/abu.russel.7)
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=aburussel87&locale=en&mode=daily&theme=default&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aburussel87&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=default&hide_border=true" height="150" alt="languages graph"  />
-</div>
-
-###
-
-
-
-
-###
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aburussel87&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
-
-###
-
-<!--
-###
+## 🛠️ Tech Stack
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="34" alt="C" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="34" alt="C++" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="34" alt="Java" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="34" alt="Python" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="34" alt="JavaScript" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="34" alt="HTML5" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="34" alt="CSS3" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="34" alt="Tailwind CSS" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="34" alt="PostgreSQL" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="34" alt="Git" />
 </div>
 
-<div align="right">
-  <a href="https://www.linkedin.com/in/nogom/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/mr_nogom" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=X&logo=twitter&label=&color=black&logoColor=white&labelColor=black&style=for-the-badge" height="35" alt="twitter logo"  />
-  </a>
+###
+
+## 🏅 Highlights
+
+| Year | Event | Project | Team | Result |
+| :--- | :---- | :------ | :--- | :----- |
+| 2025 | Blockchain Olympiad Bangladesh (BCOLBD) | Solchain | GREYDEVS | 🏆 Professor Jamilur Reza Chowdhury Award |
+| 2025 | SOLVIO AI Hackathon | UDDOKTA AI | GREYDEVS | Participant |
+| 2025 | Hackathon — Bangladesh AI Summit | FINTECH AI | JAGROTO BIDDA DOL | Participant |
+
+###
+
+## 🌐 Portfolio Site
+
+This repository also hosts a small static portfolio page.
+
+```bash
+git clone https://github.com/aburussel87/aburussel87.git
+cd aburussel87
+python3 -m http.server 8000
+# then open http://localhost:8000/Frontend/
+```
+
+Serve it over HTTP rather than opening the file directly — the embedded PDF viewer needs a real server to load documents from `assets/`.
+
+```text
+.
+├── Frontend/
+│   └── index.html     # single-page portfolio (Tailwind via CDN, dark mode, PDF viewer)
+├── assets/            # profile photo, institution logos, certificates (PDF)
+└── README.md
+```
+
+###
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aburussel87&show_icons=true&hide_border=true&theme=default&card_width=320" height="150" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aburussel87&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=default&hide_border=true" height="150" alt="Top languages" />
 </div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=aburussel87&locale=en&mode=daily&theme=default&hide_border=true&border_radius=5" height="150" alt="Contribution streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aburussel87&radius=16&theme=react&area=true&order=5" height="300" alt="Contribution activity graph" />
+</div>
+
+###
+
+<p align="center"><i>Thanks for stopping by — happy coding!</i></p>
