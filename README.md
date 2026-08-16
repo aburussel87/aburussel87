@@ -15,7 +15,7 @@
 ## 🧑‍💻 About Me
 
 - 💼 Working part-time as a **Full Stack Developer at ILM AI LTD**
-- 🎓 Studying **Computer Science and Engineering at BUET** (2023 – 2028), current CGPA **3.80**
+- 🎓 Studying **Computer Science and Engineering at BUET** (2023 – 2028)
 - 🏆 **Professor Jamilur Reza Chowdhury Award** winner — Blockchain Olympiad Bangladesh (BCOLBD) 2025
 - 🔭 Building **Solchain** with team **GREYDEVS**
 - 🧑‍🏫 Teacher at **Udvash** (Materials Department)
@@ -66,29 +66,6 @@
 | 2025 | Blockchain Olympiad Bangladesh (BCOLBD) | Solchain | GREYDEVS | 🏆 Professor Jamilur Reza Chowdhury Award |
 | 2025 | SOLVIO AI Hackathon | UDDOKTA AI | GREYDEVS | Participant |
 | 2025 | Hackathon — Bangladesh AI Summit | FINTECH AI | JAGROTO BIDDA DOL | Participant |
-
-###
-
-## 🌐 Portfolio Site
-
-This repository also hosts a small static portfolio page.
-
-```bash
-git clone https://github.com/aburussel87/aburussel87.git
-cd aburussel87
-python3 -m http.server 8000
-# then open http://localhost:8000/Frontend/
-```
-
-Serve it over HTTP rather than opening the file directly — the embedded PDF viewer needs a real server to load documents from `assets/`.
-
-```text
-.
-├── Frontend/
-│   └── index.html     # single-page portfolio (Tailwind via CDN, dark mode, PDF viewer)
-├── assets/            # profile photo, institution logos, certificates (PDF)
-└── README.md
-```
 
 ###
 
