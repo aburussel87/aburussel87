@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abu Russel</h1>
-<h3 align="center">B.Sc. in Computer Science &amp; Engineering student at BUET · I code for fun.</h3>
+<h3 align="center">Full Stack Developer at ILM AI LTD (part-time) · B.Sc. in CSE student at BUET · I code for fun.</h3>
 
 <p align="center">
   <a href="https://github.com/aburussel87" target="_blank">
@@ -14,12 +14,22 @@
 
 ## 🧑‍💻 About Me
 
+- 💼 Working part-time as a **Full Stack Developer at ILM AI LTD**
 - 🎓 Studying **Computer Science and Engineering at BUET** (2023 – 2028), current CGPA **3.80**
 - 🏆 **Professor Jamilur Reza Chowdhury Award** winner — Blockchain Olympiad Bangladesh (BCOLBD) 2025
 - 🔭 Building **Solchain** with team **GREYDEVS**
 - 🧑‍🏫 Teacher at **Udvash** (Materials Department)
 - 🌱 Currently sharpening my skills in data structures, algorithms and full-stack development
 - 📫 Reach me on [Facebook](https://www.facebook.com/abu.russel.7)
+
+###
+
+## 💼 Experience
+
+| Role | Organization | Type |
+| :--- | :----------- | :--- |
+| Full Stack Developer | ILM AI LTD | Part-time · Current |
+| Teacher (Materials Department) | Udvash | Part-time |
 
 ###
 
