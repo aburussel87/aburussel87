@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abu Russel</h1>
-<h3 align="center">Full Stack Developer at ILM AI LTD (part-time) · B.Sc. in CSE student at BUET · I code for fun.</h3>
+<h3 align="center">Worked as Full Stack Developer at ILM AI LTD (March 2026-Sept 2026) · B.Sc. in CSE student at BUET · Coding Is Fun.</h3>
 
 <p align="center">
   <a href="https://github.com/aburussel87" target="_blank">
