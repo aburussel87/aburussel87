@@ -15,7 +15,7 @@
 ## 🧑‍💻 About Me
 
 - 💼 Worked part-time as a **Full Stack Developer at ILM AI LTD** (MAR 2026 - SEPT 2026)
-- 🎓 Studying **Computer Science and Engineering at BUET** (2023 – 2028)
+- 🎓 Studying **Computer Science and Engineering at BUET** (2023 – CURRENT)
 - 🏆 **Professor Jamilur Reza Chowdhury Award** winner — Blockchain Olympiad Bangladesh (BCOLBD) 2025
 - 🔭 Building **Solchain** with team **GREYDEVS**
 - 🧑‍🏫 Teacher at **Udvash** (Materials Department)
@@ -28,7 +28,7 @@
 
 | Role | Organization | Type |
 | :--- | :----------- | :--- |
-| Full Stack Developer | ILM AI LTD | Part-time · Current |
+| Full Stack Developer | ILM AI LTD | Part-time · MAR 26 - SEPT 26 |
 | Teacher (Materials Department) | Udvash | Part-time |
 
 ###
